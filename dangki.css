@@ -1,0 +1,23 @@
+body{
+    text-align: left;
+}
+
+#hoTen, #email, #quoctich{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ghichu{
+    width: 400px;
+    height: 50px;
+}
+
+#dangki{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}

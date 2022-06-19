@@ -1,0 +1,318 @@
+body{
+    background-color: #f8f9fa;
+}
+#div-marquee{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+#div-body{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tim-kiem{
+    float: right;
+    margin-top: 20px;
+    margin-right: 630px;
+}
+#logo-header{
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+header>div>form>input{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+header>div>form>button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#show-cart{
+    color:black;
+    text-decoration: none;
+    position: absolute;
+    top: 25px;
+    right: 400px;
+}
+
+#show-cart:hover{
+    text-decoration: underline;
+}
+
+#div-header{
+    padding: 10px;
+    width: 1500px;
+    position: relative;
+}
+#img-nav{
+    width: 1500px;
+}
+.slide {
+    width: 1500px;
+    height: 100%;
+}
+ 
+.slide_1 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/valentine-2021-2.png);
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s;
+}
+ .slide_2 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/ahri-unlocked-statue.png);
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s;
+}
+.slide_3 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/ryze-slide.png);
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s;
+}
+.slide_4 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/elder-dragon-silde.png);
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s;
+}
+.slide_5 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/td-slide.png);
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s;
+}
+.slide_6 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/yuumi-2.png);
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s;
+}
+.slide_7 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/kda-silde28159697086929.png);
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s;
+}
+.slide_8 {
+    width: 1500px;
+    height: 500px;
+    background-image: url(img/god-staff.png);
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s;
+}
+nav{
+    top: -40px;
+    position: relative;
+}
+.nut {
+    position: absolute;
+    left: 800px;
+    top: 600px;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.nut ul li {
+    width: 10px;
+    height: 10px;
+    border:2px solid #fff;
+    display: inline-block;
+    border-radius: 100%;
+    cursor: pointer;
+}
+ 
+.nut ul li:hover {
+    background-color: white;
+}
+.ra{
+    transition: 1.5s;
+    opacity: 1;
+}
+
+main{
+    margin-top: 650px;
+    text-align: center;
+}
+#div-main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+#product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#product .product-price {
+    color: red;
+    font-weight: bold;
+}
+
+#product .product-img {
+    width: 280px;
+    margin-top: 25px;
+    background-color: #fff;
+}
+
+#product .product-img:hover{
+    margin-top: 25px;
+    margin: 0px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#product .product-name:hover {
+    color: blue;
+}
+
+#product .product-status{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+#product .btn-add{
+    border-radius: 10px;
+    height: 30px;
+}
+
+#feedback{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.feed-back{
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    float: left;
+}
+
+.feed-back:hover{
+    opacity: .6;
+    -webkit-transform: scale(1.1,1.1) ;
+    transform: scale(1.1,1.1) ;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+
+.unbox{
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    margin-left: 400px;
+}
+
+.unbox:hover{
+    opacity: .6;
+    -webkit-transform: scale(1.1,1.1) ;
+    transform: scale(1.1,1.1) ;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+
+#unbox{
+    float: right;
+    margin-left: 300px;
+}
+
+.feed-back{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+table{
+    margin-top: 80px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid gray;
+}
+
+#thanhToan, #remove{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dang-nhap{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    right: 250px;
+    top: 35px;
+    font-size: 20px;
+}
+
+#dang-nhap:hover{
+    text-decoration: underline;
+}
+
+#dang-ki{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    right: 120px;
+    top: 35px;
+    font-size: 20px;
+}
+
+#dang-ki:hover{
+    text-decoration: underline;
+}
+
